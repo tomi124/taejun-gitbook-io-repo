@@ -36,8 +36,7 @@
 
 #### 프레임워크 vs 라이브러리 <a href="#ed-94-84-eb-a0-88-ec-9e-84-ec-9b-8c-ed-81-ac-vs-eb-9d-bc-ec-9d-b4-eb-b8-8c-eb-9f-ac-eb-a6-ac" id="ed-94-84-eb-a0-88-ec-9e-84-ec-9b-8c-ed-81-ac-vs-eb-9d-bc-ec-9d-b4-eb-b8-8c-eb-9f-ac-eb-a6-ac"></a>
 
-제어의 역전\
-
+제어의 역전\\
 
 ![](<../.gitbook/assets/image (88).png>)
 
@@ -49,7 +48,7 @@ Spring Framework 보다 한술 더 떠서 바로 실행시킬 수 있음.
 
 #### Spring framework vs Spring boot <a href="#spring-framework-vs-spring-boot" id="spring-framework-vs-spring-boot"></a>
 
-![](<../.gitbook/assets/image (78).png>)![](<../.gitbook/assets/image (67).png>)
+![](<../.gitbook/assets/image (78).png>) ![](<../.gitbook/assets/image (67).png>)
 
 완성품 이지만 내가 입맛대로 설정할 수 있다.\
 설명서는 공식문서가 최고!\
@@ -103,7 +102,7 @@ Servlet을 구현한 Spring의 구현체. Front controller으로써의 역할을
 
 **FrontController 패턴의 매핑**
 
-![](<../.gitbook/assets/image (66).png>)
+![](<../.gitbook/assets/image (73).png>)
 
 * FrontController에서 각 설정을 한번에 관리할 수 있음.
 * FrontController에서 수행할 controller(handler)을 찾은 후 위임(delegate) 함.
@@ -115,14 +114,13 @@ ViewResolver, MultipartResolver, LocalResolver, ThemeResolver...\
 
 ### Spring boot 실행과정 <a href="#spring-boot-ec-8b-a4-ed-96-89-ea-b3-bc-ec-a0-95" id="spring-boot-ec-8b-a4-ed-96-89-ea-b3-bc-ec-a0-95"></a>
 
-1. ServletConatinerInitailizer의 구현체인 TomcatStarter에서 톰캣 실행.\
-
+1. ServletConatinerInitailizer의 구현체인 TomcatStarter에서 톰캣 실행.\\
 2. DispatcherServletAutoConfiguration에서 DispatcherSerlvet이 bean으로 등록
    1. Servlet Container에 Servlet 등록
    2. Servlet Container 각종 필터들 등록
    3. Handler mapping(controller) 등록
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (43).png>)
 
 ## JPA <a href="#jpa" id="jpa"></a>
 
@@ -381,8 +379,7 @@ tx.commit();
 ### 다대다 <a href="#eb-8b-a4-eb-8c-80-eb-8b-a4" id="eb-8b-a4-eb-8c-80-eb-8b-a4"></a>
 
 * \`@ManyToMany 로정의
-* 관계형 DB 에서는 테이블 두개로 다대다 관계를 표현할 수 없음. 따라서 중간에 매핑 테이블을 둬야함.\
-
+* 관계형 DB 에서는 테이블 두개로 다대다 관계를 표현할 수 없음. 따라서 중간에 매핑 테이블을 둬야함.\\
 
 ![](<../.gitbook/assets/image (12).png>)
 
@@ -459,4 +456,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
 복잡하거나, 쿼리문을 동적으로 변경시킬 수 있는 쿼리.\
 쿼리를 java 코드로 작성 가능하여 동적인 쿼리를 작성할 수 있다.
 
-\
+\\

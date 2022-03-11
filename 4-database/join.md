@@ -138,7 +138,7 @@ WHERE orders.order_id between 1 and 2;
 
 ### 결과 데이터
 
-![](<../.gitbook/assets/image (118).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 ## SELF JOIN
 
@@ -156,8 +156,6 @@ WHERE A.member_id = B.member_id
 ### 결과 데이터
 
 ![](<../.gitbook/assets/image (107).png>)
-
-
 
 ## SEMI JOIN
 
