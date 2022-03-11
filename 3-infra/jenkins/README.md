@@ -4,7 +4,7 @@ description: Jenkins에 대해 알아보자
 
 # JENKINS
 
-![https://medium.com/faun/how-to-install-jenkins-on-ubuntu-18-37f4daad1014](<../.gitbook/assets/image (5).png>)
+![https://medium.com/faun/how-to-install-jenkins-on-ubuntu-18-37f4daad1014](<../../.gitbook/assets/image (5).png>)
 
 ## CI/CD란 무엇인가?
 
