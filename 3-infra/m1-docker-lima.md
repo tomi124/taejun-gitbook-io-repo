@@ -601,3 +601,5 @@ docker-compose를 이용하여 컨테이너를 띄우게 되면 다음과 같은
 ```
 standard_init_linux.go:228: exec user process caused: exec format error
 ```
+
+출처 : Cho Yoohwa, Kang Sunghyuk, Hyoung Joonhyuck
