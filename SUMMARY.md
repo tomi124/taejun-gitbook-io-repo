@@ -94,6 +94,7 @@
   * [코틀린 Webclient PKIX 이슈?](8-kotlin/webclient-pkix.md)
   * [코틀린으로 CSR/CRT 만들어보자](8-kotlin/csr-crt.md)
   * [양방향 암호화를 이용해보자](8-kotlin/undefined-1.md)
+  * [코틀린으로 dynamoDB](8-kotlin/dynamodb.md)
   * [Thread vs Coroutine](8-kotlin/thread-vs-coroutine.md)
 * [9) SVELTE](9-svelte.md)
 * [10) DOCKER-KUBERNETES](10-docker-kubernetes/README.md)
