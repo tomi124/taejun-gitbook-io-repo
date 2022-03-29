@@ -81,6 +81,7 @@
   * [이벤트 드리븐 아키텍쳐 & 쓰레드](5-architecture/and.md)
   * [AWS MSA ARCHITECTURE](5-architecture/aws-msa-architecture.md)
 * [6) COMPUTER SCIENCE](6-computer-science/README.md)
+  * [NetWork, IP종류 (공인IP, 사설IP, 고정IP, 유동IP)](6-computer-science/network-ip-ip-ip-ip-ip.md)
   * [REST API](6-computer-science/rest-api.md)
   * [HTTP HEADER](6-computer-science/http-header.md)
   * [HTTP METHOD](6-computer-science/http-method.md)
