@@ -1,0 +1,16 @@
+// book.json
+{
+    // ...
+ 
+    "plugins": [
+        // ...,
+        "analytics"
+    ],
+ 
+    "pluginsConfig": {
+        // ...,
+        "analytics": {
+            "google": "UA-164160823-1"
+        }
+    }
+}
