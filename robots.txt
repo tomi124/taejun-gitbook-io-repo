@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taejun.gitbook.io/tech/sitemap.xml
