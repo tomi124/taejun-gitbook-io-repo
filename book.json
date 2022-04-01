@@ -5,6 +5,10 @@
     "pluginsConfig": {
         "analytics": {
             "google": "UA-164160823-1"
+        },
+     "meta-single": {
+          "name": "google-site-verification",
+           "content": "FFMizBLlJwv0g_C6aKdK9t_RntCt0pkHSaqnHx1pwrA"
         }
     }
 }
