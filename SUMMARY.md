@@ -117,6 +117,7 @@
   * [AWS PINPOINT](12-aws/aws-pinpoint.md)
   * [AWS에 Spring Boot 프로젝트 배포 1 - RDS, MySQL 세팅](12-aws/aws-spring-boot-1-rds-mysql.md)
   * [AWS에 Spring Boot 프로젝트 배포 2 - EC2 세팅＆배포 , 도메인 연결](12-aws/aws-spring-boot-2-ec2.md)
+  * [AWS Spring Error log CloudWatch로 전송하는 법](12-aws/aws-spring-error-log-cloudwatch.md)
 
 ## 레퍼런스 <a href="#reference" id="reference"></a>
 
