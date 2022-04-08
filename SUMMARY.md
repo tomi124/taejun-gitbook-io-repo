@@ -32,6 +32,8 @@
   * [Stereo Type(스테레오 타입)](2-srping/stereo-type.md)
   * [JPA vs MyBatis](2-srping/jpa-vs-mybatis.md)
   * [JPA Repository 규칙](2-srping/jpa-repository.md)
+  * [JPA Auditing](2-srping/jpa-auditing.md)
+  * [JPA Auditing 사용하기](2-srping/jpa-auditing-1.md)
   * [queryDsl](2-srping/querydsl.md)
   * [N+1 문제](2-srping/n+1.md)
   * [OSIV](2-srping/osiv.md)
