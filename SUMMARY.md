@@ -40,6 +40,7 @@
   * [영속성 컨텍스트(Persistence Context)](2-srping/persistence-context.md)
   * [@Transactional](2-srping/transactional.md)
   * [Filter와 Interceptor](2-srping/filter-interceptor.md)
+  * [HttpSecurity, WebSecurity의 차이](2-srping/httpsecurity-websecurity.md)
   * [@Controlleradvice, @ExceptionHandler](2-srping/controlleradvice-exceptionhandler.md)
   * [@EnableWebMvc](2-srping/enablewebmvc.md)
   * [Spring Security](2-srping/spring-security.md)
