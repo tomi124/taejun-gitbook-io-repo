@@ -46,6 +46,7 @@
   * [Spring Security 에서 인증 과정](2-srping/spring-security-1.md)
   * [Spring Security Filter 적용](2-srping/spring-security-filter.md)
   * [Spring WebFlux + Redis](2-srping/spring-webflux-+-redis.md)
+  * [SpringBoot와 Retrofit 연동](2-srping/springboot-retrofit.md)
   * [Dispatcher Servlet](2-srping/dispatcher-servlet.md)
   * [MapStruct](2-srping/mapstruct.md)
   * [자바 코드 매핑 vs MapStruct vs ModelMapper](2-srping/vs-mapstruct-vs-modelmapper.md)
@@ -120,6 +121,7 @@
   * [AWS에 Spring Boot 프로젝트 배포 1 - RDS, MySQL 세팅](12-aws/aws-spring-boot-1-rds-mysql.md)
   * [AWS에 Spring Boot 프로젝트 배포 2 - EC2 세팅＆배포 , 도메인 연결](12-aws/aws-spring-boot-2-ec2.md)
   * [AWS Spring Error log CloudWatch로 전송하는 법](12-aws/aws-spring-error-log-cloudwatch.md)
+  * [AWS Xray -spring boot에서 aop를 이용해 xray 구성하기](12-aws/aws-xray-spring-boot-aop-xray.md)
 
 ## 레퍼런스 <a href="#reference" id="reference"></a>
 
