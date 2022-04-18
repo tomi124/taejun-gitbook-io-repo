@@ -4,7 +4,7 @@ description: Filter와 Interceptor의 차이에 대해 알아보자
 
 # Filter와 Interceptor
 
-![](<../.gitbook/assets/image (126).png>)
+![](<../../.gitbook/assets/image (126).png>)
 
 ## Filter
 
