@@ -191,3 +191,6 @@
   * [6장 객체와 자료 구조](study/undefined-3/6.md)
   * [9장 단위 테스트](study/undefined-3/9.md)
 * [이펙티브 자바](study/undefined-4.md)
+* [마이크로서비스 아키텍처 구축](study/undefined-5/README.md)
+  * [MSA를 지탱하는 기본 개념](study/undefined-5/msa.md)
+  * [배포와 모니터링를 거쳐 대규모 마이크로서비스](study/undefined-5/undefined.md)
