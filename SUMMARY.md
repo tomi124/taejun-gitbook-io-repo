@@ -35,6 +35,7 @@
   * [JPA Repository 규칙](2-srping/jpa-repository.md)
   * [JPA Auditing](2-srping/jpa-auditing.md)
   * [JPA Auditing 사용하기](2-srping/jpa-auditing-1.md)
+  * [JPA Auditing과 제대로 알아야 할 @PreUpdate](2-srping/jpa-auditing-preupdate.md)
   * [JPA - 엔티티 식별자 직접할당시 save 성능 최적화(Persistable)](2-srping/jpa-save-persistable.md)
   * [JPA 정리](2-srping/jpa.md)
   * [queryDsl](2-srping/querydsl.md)
