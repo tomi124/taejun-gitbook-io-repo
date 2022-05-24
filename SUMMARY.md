@@ -41,6 +41,7 @@
   * [OSIV](2-srping/osiv.md)
   * [영속성 컨텍스트(Persistence Context)](2-srping/persistence-context.md)
   * [@Transactional](2-srping/transactional.md)
+  * [TransactionalEventListener](2-srping/transactionaleventlistener.md)
   * [Filter와 Interceptor](2-srping/filter-interceptor/README.md)
     * [그림으로 보는 Filter와 Interceptor](2-srping/filter-interceptor/filter-interceptor.md)
   * [HttpSecurity, WebSecurity의 차이](2-srping/httpsecurity-websecurity.md)
