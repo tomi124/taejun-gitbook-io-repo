@@ -112,6 +112,7 @@
     * [Classes and Inheritance](7-kotlin-official/classes-and-objects/classes-and-inheritance.md)
     * [Properties and Fields](7-kotlin-official/classes-and-objects/properties-and-fields.md)
 * [8) KOTLIN](8-kotlin/README.md)
+  * [Kotest](8-kotlin/kotest.md)
   * [파일 압축 해보자](8-kotlin/undefined.md)
   * [runCatching을 이용한 kotlin에서 exception처리 방법](8-kotlin/runcatching-kotlin-exception.md)
   * [코틀린 Webclient PKIX 이슈?](8-kotlin/webclient-pkix.md)
