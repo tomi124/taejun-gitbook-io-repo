@@ -74,6 +74,7 @@
     * [쿠버네티스 기초 Part 3](3-infra/container-orchestration/part-3.md)
   * [JENKINS](3-infra/jenkins/README.md)
     * [Jenkins zombie job kill](3-infra/jenkins/jenkins-zombie-job-kill.md)
+  * [ terraform](3-infra/terraform.md)
   * [DNS 동작 원리](3-infra/dns.md)
   * [MongoDB](3-infra/mongodb.md)
   * [Kafka](3-infra/kafka.md)
