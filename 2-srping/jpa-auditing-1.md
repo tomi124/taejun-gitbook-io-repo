@@ -2,7 +2,7 @@
 
 ![](https://media.vlpt.us/images/shawnhansh/post/5b15e743-f666-4827-995f-8021ec89a9b1/michael-dziedzic-uZr0oWxrHYs-unsplash.jpg)
 
-> 해당 내용은 [이동욱님](https://jojoldu.tistory.com) 저서 '[스프링 부트와 AWS로 혼자 구현하는 웹 서비스](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR\&mallGb=KOR\&barcode=9788965402602)'를 공부하며 정리한 내용입니다.
+> 해당 내용은 [이동욱님](https://jojoldu.tistory.com/) 저서 '[스프링 부트와 AWS로 혼자 구현하는 웹 서비스](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR\&mallGb=KOR\&barcode=9788965402602)'를 공부하며 정리한 내용입니다.
 
 생성시간과 수정시간을 처리하기 위해 단순하고 반복적인 코드가 모든 테이블과 서비스 메서드에 포함된다.\
 JPA Auditing을 사용하면 이 문제를 해결할 수 있다.
