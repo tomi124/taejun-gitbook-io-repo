@@ -38,6 +38,7 @@
   * [JPA Auditing과 제대로 알아야 할 @PreUpdate](2-srping/jpa-auditing-preupdate.md)
   * [JPA - 엔티티 식별자 직접할당시 save 성능 최적화(Persistable)](2-srping/jpa-save-persistable.md)
   * [JPA 정리](2-srping/jpa.md)
+  * [Projection](2-srping/projection.md)
   * [queryDsl](2-srping/querydsl.md)
   * [N+1 문제](2-srping/n+1.md)
   * [OSIV](2-srping/osiv.md)
