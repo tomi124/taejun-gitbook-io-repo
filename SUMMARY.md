@@ -40,6 +40,7 @@
   * [JPA 정리](2-srping/jpa.md)
   * [Projection](2-srping/projection.md)
   * [queryDsl](2-srping/querydsl.md)
+  * [Fetch Join vs 일반 Join(feat.DTO)](2-srping/fetch-join-vs-join-feat.dto.md)
   * [N+1 문제](2-srping/n+1.md)
   * [OSIV](2-srping/osiv.md)
   * [영속성 컨텍스트(Persistence Context)](2-srping/persistence-context.md)
