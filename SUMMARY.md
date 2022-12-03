@@ -157,6 +157,8 @@
   * [Jenkins zombie job kill](14-ci-cd-devops-sre/jenkins-zombie-job-kill.md)
   * [Jenkins & Codebuild(aws)](14-ci-cd-devops-sre/jenkins-and-codebuild-aws.md)
   * [Jenkins & Terraform](14-ci-cd-devops-sre/jenkins-and-terraform.md)
+  * [Datadog](14-ci-cd-devops-sre/datadog/README.md)
+    * [Datadog 한글이 깨지는 경우](14-ci-cd-devops-sre/datadog/datadog.md)
   * [ terraform](14-ci-cd-devops-sre/terraform.md)
 * [15) Troubleshooting](15-troubleshooting/README.md)
   * [Jpa Converter 트러블 슈팅 기록](15-troubleshooting/jpa-converter.md)
