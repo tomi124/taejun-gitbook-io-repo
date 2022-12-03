@@ -2,7 +2,7 @@
 
 
 
-_원인_\
+_\[원인]_\
 
 
 * 기본적으로 Value Object라는 개념을 Java에서 구현할 때는 Equals와 HashCode를 구현하여 값의 동등성을 보장하고, 값이 변경되어야 한다면, 새로운 객체로 대체할 수 있도록 구현해야 함.
@@ -13,7 +13,7 @@ _원인_\
 * transaction scoper가 read slave db 여서 update는 안됨 ( 다행 > read only 잘먹네 굿 )
 * 500 에러 발생
 
-_해결방안_\
+_\[해결방안]_\
 
 
 * converter의 모델을 수정함 ( 단순 string 인줄 알았으나 객체인 프로퍼티가 있었음 -> 비즈니스에서 안쓰이기 때문에 Any 처리 후 DTO에서는 null로 변경하여 변환)
