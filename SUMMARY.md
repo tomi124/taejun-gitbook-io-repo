@@ -158,6 +158,8 @@
   * [Jenkins & Codebuild(aws)](14-ci-cd-devops-sre/jenkins-and-codebuild-aws.md)
   * [Jenkins & Terraform](14-ci-cd-devops-sre/jenkins-and-terraform.md)
   * [ terraform](14-ci-cd-devops-sre/terraform.md)
+* [15) Troubleshooting](15-troubleshooting/README.md)
+  * [Jpa Converter 트러블 슈팅 기록](15-troubleshooting/jpa-converter.md)
 
 ## 레퍼런스 <a href="#reference" id="reference"></a>
 
