@@ -91,5 +91,4 @@ object DoEncrypt {
         return encryptAes(message)
     }
 }
-
 ```

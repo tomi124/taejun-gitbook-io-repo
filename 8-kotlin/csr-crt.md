@@ -1,6 +1,6 @@
 # 코틀린으로 CSR/CRT 만들어보자
 
-양방향 암호화를 사용해서 public key, private key를 이용해보자!&#x20;
+양방향 암호화를 사용해서 public key, private key를 이용해보자!
 
 ```
 import sun.security.pkcs10.*
@@ -103,5 +103,4 @@ object SslCsrGenerator {
         return cert
     }
 }
-
 ```

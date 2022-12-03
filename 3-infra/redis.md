@@ -1,7 +1,5 @@
 # Redis
 
-
-
 ## 왜 궁금하게 되었는가? <a href="#undefined" id="undefined"></a>
 
 * 당근마켓 python 웹/서버 개발자에게 요구하는 기술에서 봄\
@@ -73,15 +71,15 @@ Key로 참조되는 Value 타입을 다양하게 지정하여 저장할 수 있�
 1. Sorted Set
    *   set에 “score”라는 필드가 추가된 데이터 형으로 score는 일종의 “가중치” 정도로 생각하면 된다. sorted set에서 데이터는 오름차순으로 내부 정렬되며, 정렬이 되어있는 만큼 score 값 범위에 따른 쿼리, top Rank에 따른 query 등이 가능하다.
 
-       ![](https://media.vlpt.us/images/swhan9404/post/129fba19-a8c2-45e7-a30d-666f2f32a50f/image.png)
+       <img src="https://media.vlpt.us/images/swhan9404/post/129fba19-a8c2-45e7-a30d-666f2f32a50f/image.png" alt="" data-size="original">
 2. Hashes
    *   hash는 value 내에 field/string value 쌍으로 이루어진 테이블을 저장하는 데이타 구조체이다. RDBMS에서 PK 1개와 string 필드 하나로 이루어진 테이블이라고 이해하면 된다.
 
-       ![](https://media.vlpt.us/images/swhan9404/post/79d35890-47c4-41ff-b851-d8932bcd24fd/image.png)
+       <img src="https://media.vlpt.us/images/swhan9404/post/79d35890-47c4-41ff-b851-d8932bcd24fd/image.png" alt="" data-size="original">
 3. List
    *   list는 string들의 집합으로 저장되는 데이터 형태는 set과 유사하지만, 일종의 양방향 Linked list라고 생각하면 된다. List 앞과 뒤에서 PUSH/POP 연산을 이용해서 데이터를 넣거나 뺄 수 있고, 지정된 Index값을 이용하여 지정된 위치에 데이터를 넣거나 뺄 수 있다.
 
-       ![](https://media.vlpt.us/images/swhan9404/post/355bf968-4e14-477f-ae26-b7d2a430c176/image.png)
+       <img src="https://media.vlpt.us/images/swhan9404/post/355bf968-4e14-477f-ae26-b7d2a430c176/image.png" alt="" data-size="original">
 
 ### Persistence(Disk에 저장이 가능하면서 생긴 영속성) <a href="#persistencedisk" id="persistencedisk"></a>
 
@@ -171,6 +169,4 @@ Redis 자료구조는 **`Atomic 하다는 특징`** 때문에 이런 `race condi
 
 ![](https://media.vlpt.us/images/swhan9404/post/105c9eb6-c53d-420c-a097-7b47f27e56a3/image.png)
 
-
-
-출처: [https://velog.io/@swhan9404/Redis-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80](https://velog.io/@swhan9404/Redis-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)&#x20;
+출처: [https://velog.io/@swhan9404/Redis-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80](https://velog.io/@swhan9404/Redis-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)

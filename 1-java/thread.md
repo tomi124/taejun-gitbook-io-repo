@@ -4,8 +4,6 @@ description: Thread를 생성할 수 있는 방법에 대해 알아보고 동기
 
 # Thread(쓰레드)
 
-
-
 ## 프로세스와 스레드
 
 ### 프로세스
@@ -227,7 +225,6 @@ import com.google.common.collect.ImmutableList;
 
 List<String> fruits = ImmutableList.of("Apple", "Banana", "Cherry");
 fruits.add("Lemon"); // UnsupportedOperationException
-
 ```
 
 ## 참고

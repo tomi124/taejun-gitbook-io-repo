@@ -90,7 +90,7 @@
 * 페이지 캐시
   *   카프카는 잔여 메모리를 이용해 디스크 Read/Write 를 하지 않고 페이지 캐시를 통한 Read/Write으로 인해 처리속도가 매우 빠름
 
-      ![](https://media.vlpt.us/images/jaehyeong/post/1bf079fa-d7ae-4019-82e5-4ec66ceb4df8/Untitled%205.png)
+      <img src="https://media.vlpt.us/images/jaehyeong/post/1bf079fa-d7ae-4019-82e5-4ec66ceb4df8/Untitled%205.png" alt="" data-size="original">
 * 배치 전송 처리
   * 서버와 클라이언트 사이에서 빈번하게 발생하는 메시지 통신을 하나씩 처리할 경우 그만큼 네트워크 왕복의 오버헤드가 발생
   * 이로인해, 메시지를 작은 단위로 묶어 배치 처리를 함으로써 속도 향상에 큰 도움을 줌
@@ -106,7 +106,7 @@
 * 메시지를 논리적으로 묶은 개념 (데이터베이스의 테이블 / 파일시스템의 폴더와 유사한 개념)
 *   프로듀서가 메시지를 보낼경우 토픽에 메시지가 저장됨.
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/bb2f305a-8ae5-4a48-a577-fe6e9c962156/KakaoTalk\_20210610\_143323820.jpg)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/bb2f305a-8ae5-4a48-a577-fe6e9c962156/KakaoTalk_20210610_143323820.jpg" alt="" data-size="original">
 
 #### 파티션(Partition) <a href="#partition" id="partition"></a>
 
@@ -129,7 +129,7 @@
 
 *   오프셋(offset)
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/425f841c-bdb0-4ee3-a501-7943e9178217/Untitled%208.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/425f841c-bdb0-4ee3-a501-7943e9178217/Untitled%208.png" alt="" data-size="original">
 
     * 파티션마다 메시지가 저장되는 위치
     * 파티션 내에서 순차적으로 유니크하게 증가하는 숫자 형태로서 동일 파티션 내 메시지의 순서를 보장해줌
@@ -167,13 +167,13 @@
 * 동일 토픽에 대해 여러 컨슈머가 메시지를 가져갈 수 있도록 컨슈머 그룹이라는 기능을 제공
 *   아래와 같이 하나의 consumer가 프로듀서의 메시지 전송 속도를 따라가지 못할 경우
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/f86a8113-01cc-4462-9508-18e58f3ed3bb/Untitled%2010.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/f86a8113-01cc-4462-9508-18e58f3ed3bb/Untitled%2010.png" alt="" data-size="original">
 *   아래와 같이 컨슈머를 확장하여 하나의 파티션 당 하나의 컨슈머가 연결되도록 할 수 있음 (리밸런스, rebalance)
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/b1da98e2-4f97-4889-9a66-2ed1549d4617/Untitled%2011.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/b1da98e2-4f97-4889-9a66-2ed1549d4617/Untitled%2011.png" alt="" data-size="original">
 *   하나의 파티션 당 하나의 컨슈머가 1:1 연결되어야 하므로 아래와 같이 확장할 수는 없음
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/a9c176b6-b98c-40b2-a4f1-5d9e09bd2888/Untitled%2012.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/a9c176b6-b98c-40b2-a4f1-5d9e09bd2888/Untitled%2012.png" alt="" data-size="original">
 * 컨슈머 그룹은 컨슈머가 일정한 주기로 하는 하트비트(컨슈머가 poll()하거나 메시지의 오프셋을 커밋할때 보냄)를 통해 컨슈머가 메시지를 처리하고 있다는 것을 인지하며, 만약 오랫동안 하트비트가 없다면 해당 컨슈머의 세션이 타임아웃되고 리밸런스를 수행
 * 카프카의 메시지 큐 시스템은 큐에서 메시지를 가져가도 사라지지 않기 때문에 여러 컨슈머 그룹이 동일 토픽에 붙을 수 있음
 
@@ -207,10 +207,10 @@
 
 *   Producer의 메시지 배치 처리 성능 비교
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/408a480e-a818-4525-ba07-c6a9c644ad82/Untitled%2013.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/408a480e-a818-4525-ba07-c6a9c644ad82/Untitled%2013.png" alt="" data-size="original">
 *   Consumer 메시지 수신 처리 성능 비교
 
-    ![](https://media.vlpt.us/images/jaehyeong/post/6c1a17c9-60b5-4200-b919-7e372bd2e47d/Untitled%2014.png)
+    <img src="https://media.vlpt.us/images/jaehyeong/post/6c1a17c9-60b5-4200-b919-7e372bd2e47d/Untitled%2014.png" alt="" data-size="original">
 
 #### Kafka <a href="#kafka-1" id="kafka-1"></a>
 

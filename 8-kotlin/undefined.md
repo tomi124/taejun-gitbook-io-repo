@@ -1,6 +1,6 @@
 # 파일 압축 해보자
 
-파일 압축의 경우 Blocking 로직이 수반되기 때문에, 조심하자&#x20;
+파일 압축의 경우 Blocking 로직이 수반되기 때문에, 조심하자
 
 ```
 import java.io.*
@@ -24,5 +24,4 @@ object ZipMakerUtils {
             }
         }
 }
-
 ```
