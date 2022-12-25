@@ -63,6 +63,7 @@
   * [Dispatcher Servlet](2-srping/dispatcher-servlet.md)
   * [MapStruct](2-srping/mapstruct.md)
   * [자바 코드 매핑 vs MapStruct vs ModelMapper](2-srping/vs-mapstruct-vs-modelmapper.md)
+  * [낙관적(Optimistic) 락과 비관적(Pessimisitc)락](2-srping/optimistic-pessimisitc.md)
   * [AOP](2-srping/aop.md)
 * [3) INFRA](3-infra/README.md)
   * [Linux basic command](3-infra/linux-basic-command.md)
