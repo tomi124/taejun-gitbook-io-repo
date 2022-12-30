@@ -96,6 +96,7 @@
   * [SOLID 원칙](5-architecture/solid.md)
   * [캡슐화](5-architecture/undefined-2.md)
   * [이벤트 드리븐 아키텍쳐 & 쓰레드](5-architecture/and.md)
+  * [논블럭킹, 동시성, 병렬, 비동기](5-architecture/undefined-3.md)
   * [AWS MSA ARCHITECTURE](5-architecture/aws-msa-architecture.md)
 * [6) COMPUTER SCIENCE](6-computer-science/README.md)
   * [NetWork, IP종류 (공인IP, 사설IP, 고정IP, 유동IP)](6-computer-science/network-ip-ip-ip-ip-ip.md)
