@@ -168,6 +168,8 @@
     * [Datadog application profiling 활성화](14-ci-cd-devops-sre/datadog/datadog-application-profiling.md)
   * [ terraform](14-ci-cd-devops-sre/terraform.md)
 * [15) Troubleshooting](15-troubleshooting/README.md)
+  * [Spring boot 3.0](15-troubleshooting/spring-boot-3.0/README.md)
+    * [Spring data jpa](15-troubleshooting/spring-boot-3.0/spring-data-jpa.md)
   * [Jpa Converter 트러블 슈팅 기록](15-troubleshooting/jpa-converter.md)
 
 ## 레퍼런스 <a href="#reference" id="reference"></a>
