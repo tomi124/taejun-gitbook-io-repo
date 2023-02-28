@@ -125,23 +125,6 @@ SELECT *
 
 * 조인의 ON 절에 들어가던 조건이 바깥 WHERE 문으로 빠져나온다는 점에서 @Where를 사용한 쿼리가 잘못 만들어지는 이슈와 매우 유사하다. (_함께 fix될 가능성도 있을 수 있겠다._)
 
-눈물…[개빈 킹](https://en.wikipedia.org/wiki/Gavin\_King) 형 힘내줘…
-
-### **Hibernate 버그 픽스 요청 히스토리**
-
-#### [Hibernate ORM Discourse 포럼](https://discourse.hibernate.org/c/hibernate-orm/5)에 문의 등록
-
-* 문의: [https://discourse.hibernate.org/t/where-clause-ignored-after-upgrading-to-hibernate-6/7120](https://discourse.hibernate.org/t/where-clause-ignored-after-upgrading-to-hibernate-6/7120)
-
-
-
-Hibernate Team의 Christian Beikov가 버그가 맞다고 확인해주었다
-
-#### [Hibernate ORM JIRA](https://hibernate.atlassian.net/jira/software/c/projects/HHH/issues/?filter=allissues)에 이슈 등록
-
-* 2023-01-11에 HHH-16019 이슈 등록
-* 이슈: [https://hibernate.atlassian.net/browse/HHH-16019](https://hibernate.atlassian.net/browse/HHH-16019)
-
 
 
 ### Useful Articles
