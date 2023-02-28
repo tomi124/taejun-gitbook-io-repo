@@ -141,7 +141,8 @@ Hibernate Team의 Christian Beikov가 버그가 맞다고 확인해주었다
 
 * 2023-01-11에 HHH-16019 이슈 등록
 * 이슈: [https://hibernate.atlassian.net/browse/HHH-16019](https://hibernate.atlassian.net/browse/HHH-16019)
-* 테스트케이스 리포지토리: [https://github.com/dev-jaehoonlee/hibernate-test-case-templates](https://github.com/dev-jaehoonlee/hibernate-test-case-templates)
+
+
 
 ### Useful Articles
 
