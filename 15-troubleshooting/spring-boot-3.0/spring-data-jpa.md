@@ -55,9 +55,8 @@
 **데모 프로젝트**
 
 * 정말 Hibernate 6.1의 문제인 것인지 확인해 보기 위해서, 기타 다른 종속성 없이 Hibernate Core만 가지고 데모 프로젝트를 개발하여 테스트 해 보았다.
-* [GitHub Repository](https://github.com/Kmong/hibernate-demo)
-  * [Hibernate 5.6 Branch](https://github.com/Kmong/hibernate-demo/tree/hibernate-5.6)
-  * [Hibernate 6.1 Branch](https://github.com/Kmong/hibernate-demo/tree/hibernate-6.1)
+
+
 
 ```
 select
@@ -104,7 +103,6 @@ where
 
 * 관련 문서: [Hibernate 6 Wrong query generated with @DiscriminatorValue](https://discourse.hibernate.org/t/hibernate-6-wrong-query-generated-with-discriminatorvalue/6984)
   * Stackoverflow: [Hibernate 6 Wrong query generated](https://stackoverflow.com/questions/74695210/hibernate-6-wrong-query-generated)
-  * 이슈 티켓: [Malformed query generated when using @DiscriminatorValue](https://hibernate.atlassian.net/browse/HHH-15829) (HHH-15829)
 * 2022-12-06 리포트 된 이후 아직 해결되지 않은 이슈
 
 ```
